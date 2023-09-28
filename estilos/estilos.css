@@ -108,59 +108,24 @@
     color: black !important;
 
 }
-/* 
 
-nav{
+.foot-conteiner ul{
     display: flex;
-    height: 50px;
-    width: 100%;
-    background-color: gray;
-    position:fixed;
-    
-    
-
-}
-
-.logo{
-    list-style-type: none;
-    float: left;
-    display: flex;
-    justify-content: left;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-.logo img{
-    width: 50px;
-    height: auto;
-    
-}
-
-.menu{
-    list-style-type: none;
-    display: flex;
-    justify-content: right;
-    margin-right: 20px;
+    justify-content: space-between;
     align-items: center;
-    
-    
+    background-color: aqua;
+    list-style: none;
+    padding: 10px 200px 10px 200px;
+    margin-bottom: 0;
 }
-.menu li{
-
-    margin-top: 10px;
-    align-items: center;
-}
-.menu a{
+.foot-conteiner a{
     text-decoration: none;
-    color: white;
-    padding-left: 10px;
-}
-.menu a:hover:not(.comprar){
-    color: aquamarine;
-}
-.imagen{
-    float: right;
     
 }
-.imagen-descripcion{
-   
-} */
+.form-container{
+    display: flex;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}

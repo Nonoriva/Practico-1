@@ -53,7 +53,7 @@ btnBorrar.addEventListener('click',(evento)=>{
 
 });
 
-
+/*
 let ver=""   
 let tickets = document.getElementById('tickets-form')
 let principal = document.getElementById('principal')
@@ -77,9 +77,7 @@ function mostrar(){
     principal.style.display = "";
     tickets.style.display = "none";
     console.log("aca esta");
-}
+}*/
 let btn_tickets = document.getElementById('tickets');
 btn_tickets.addEventListener('click',(evento)=>visible(evento));
 
-let clases = document.getElementsByClassName('nav-link')
-console.log(clases)

@@ -58,7 +58,8 @@ let ver=""
 let tickets = document.getElementById('tickets-form')
 let principal = document.getElementById('principal')
 function visible(evento){
-
+    //Funcion para ocultar y mostrar el contenido principal
+    //e 
     evento.preventDefault();
   
     if (ver==""){
@@ -75,13 +76,10 @@ function visible(evento){
 function mostrar(){
     principal.style.display = "";
     tickets.style.display = "none";
-    console.log("aca esta")
+    console.log("aca esta");
 }
-let btn_tickets = document.getElementById('tickets')
-
-
+let btn_tickets = document.getElementById('tickets');
 btn_tickets.addEventListener('click',(evento)=>visible(evento));
 
-seccion.addEventListener('click',(evento)=>visible(evento))
-
-document.getElementById("navbar-nav").addEventListener('click',mostrar)
+let clases = document.getElementsByClassName('nav-link')
+console.log(clases)
